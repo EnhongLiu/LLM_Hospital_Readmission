@@ -17,10 +17,10 @@ Model Development: Two models, CNN and RF, were developed. Clinical notes were p
 LLM-based Prediction: For leveraging LLMs in predictions, DSPy was intially chosen as the orchestration layer to adjust prompts and weights. We integrated open-source models (e.g., Meditron, BioMistal) and proprietary LLM APIs (e.g., GPT, Gemini). We opted for GPT4.0, which performed well in terms of speed and accuracy. DSPy was used to optimize the model with few-shot learning, but biases toward positive predictions were observed. The workflow was then switched to LangChain for more control, and achieved a reasonable performance. Finally, we fine-tuned a pre-trained BERT model (DistilBERT) and ClinicalBERT for improved prediction performance, given the domain-specific focus on clinical text.
 
 ### Noteboooks
-  1. Preprocessing (https://github.com/Shayne66/BD4H-Project/blob/main/Code/0_Preprocessing.ipynb)
-  2. CNN & Random Forest (https://github.com/Shayne66/BD4H-Project/blob/main/Code/1.1_CNN_RanForest_final.ipynb)
-  3. LangChain + GPT4 (https://github.com/Shayne66/BD4H-Project/blob/main/Code/2.1_LLM_LangChain.ipynb)
-  4. BERT (https://github.com/Shayne66/BD4H-Project/blob/main/Code/2.2_LLM_BERT.ipynb)
+  1. Preprocessing (https://github.com/EnhongLiu/LLM_Hospital_Readmission/blob/7e77731196f6daf65bf246a53e35b3ff8b536a85/Code/0_Preprocessing.ipynb)
+  2. CNN & Random Forest (https://github.com/EnhongLiu/LLM_Hospital_Readmission/blob/7e77731196f6daf65bf246a53e35b3ff8b536a85/Code/1.1_CNN_RanForest_final.ipynb)
+  3. LangChain + GPT4 (https://github.com/EnhongLiu/LLM_Hospital_Readmission/blob/7e77731196f6daf65bf246a53e35b3ff8b536a85/Code/2.1_LLM_LangChain.ipynb)
+  4. BERT (https://github.com/EnhongLiu/LLM_Hospital_Readmission/blob/7e77731196f6daf65bf246a53e35b3ff8b536a85/Code/2.2_LLM_BERT.ipynb)
 
 ### Results
 General-Readmission
