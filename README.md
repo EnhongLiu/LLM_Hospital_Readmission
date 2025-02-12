@@ -1,6 +1,6 @@
-## BD4H-Project
-### Leveraging Unstructured Clinical Data for Predictive Modeling: Reproducing and Extending a Readmission Prediction Work
-Our goal for this project is to replicate and validate the methodology from "Predicting Heart Failure Readmission from Clinical Notes Using Deep Learning" (Liu et al., 2019). We aim to achieve three objectives: (1) gaining practical experience in integrating unstructured data into predictive models, (2) systematically evaluating the reproducibility and effectiveness of the study’s approach, and (3) exploring lange models, especially large language models (LLMs), for this task, which will expand our team’s expertise in deriving predictive insights from text data. The overall pipeline is shown below. 
+## Leveraging Unstructured Clinical Data for Predictive Modeling: Reproducing and Extending a Readmission Prediction Work
+
+### Our goal for this project is to replicate and validate the methodology from "Predicting Heart Failure Readmission from Clinical Notes Using Deep Learning" (Liu et al., 2019). We aim to achieve three objectives: (1) gaining practical experience in integrating unstructured data into predictive models, (2) systematically evaluating the reproducibility and effectiveness of the study’s approach, and (3) exploring lange models, especially large language models (LLMs), for this task, which will expand our team’s expertise in deriving predictive insights from text data. The overall pipeline is shown below. 
 <img src='https://github.com/Shayne66/BD4H-Project/blob/main/Graphs/Pipeline.png'>
 
 ### Dependencies
